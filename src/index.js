@@ -45,7 +45,7 @@ const bbb = [
   "Smells like Poop",
   "Rotten Produce",
   "Sticky",
-  "Religious Reference",
+  "Out of Stock",
   "In Florida",
 ];
 
