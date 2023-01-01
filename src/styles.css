@@ -26,6 +26,17 @@ footer {
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 600;
+  transition: 200ms;
+  color: darkslategray;
+}
+
+a:hover {
+  color: hotpink;
+}
+
 .wrapper {
   margin: 0 auto;
   display: grid;

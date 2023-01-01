@@ -102,7 +102,12 @@ function App() {
           </Tile>
         ))}
       </div>
-      <footer>Reese Rose Design © 2023</footer>
+      <footer>
+        <a href="https://www.reeserosedesign.com/" target="blank">
+          Reese Rose Design
+        </a>{" "}
+        © 2023
+      </footer>
       {state.won ? <Confetti /> : null}
     </div>
   );
