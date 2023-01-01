@@ -23,7 +23,7 @@ function Tile({ id, children, onToggle, isSet }) {
 
 const bbb = [
   "Smells Bad",
-  "Long Wait",
+  "Hate Crimed",
   "Rude Employees",
   "Not Queer Friendly",
   "Uncomfy Seating",
@@ -85,6 +85,11 @@ function App() {
   return (
     <div className="App">
       <h1>Bingo from Hell</h1>
+      <p>
+        Are you a chronic complainer? Try Bingo from Hell™, the game that's
+        certain to make you excited to hate single every moment of every single
+        day of this miserable life!
+      </p>
       <div className="wrapper">
         {Object.keys(data).map((id) => (
           <Tile
@@ -97,6 +102,7 @@ function App() {
           </Tile>
         ))}
       </div>
+      <footer>Reese Rose Design © 2023</footer>
       {state.won ? <Confetti /> : null}
     </div>
   );
