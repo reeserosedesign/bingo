@@ -59,14 +59,14 @@ button {
   cursor: pointer;
 }
 
-.inactive {
-  color: grey;
-  background-color: lightgray;
+.active {
+  color: white;
+  background-color: hotpink;
   cursor: default;
 }
 
-.inactive:hover {
-  background-color: lightgrey;
+.active:hover {
+  background-color: hotpink;
 }
 
 button:hover {
