@@ -21,6 +21,34 @@ function Tile({ id, children, onToggle, isSet }) {
   );
 }
 
+const redflag = [
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+  "-",
+];
+
 const bbb = [
   "Smells Bad",
   "Hate Crimed",
@@ -90,6 +118,9 @@ function App() {
         certain to make you excited to hate single every moment of every single
         day of this miserable life!
       </p>
+      <div className="buttons">
+      <button>Places</button>
+      <button className="inactive">People</button></div>
       <div className="wrapper">
         {Object.keys(data).map((id) => (
           <Tile

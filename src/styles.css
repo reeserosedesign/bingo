@@ -2,13 +2,15 @@
   font-family: "Inter Tight", sans-serif;
   font-weight: 600;
   text-align: center;
-  color: darkslategray;
+  color: purple;
+  background-color: white;
 }
 
 h1 {
   font-family: "Sarina", cursive;
   color: hotpink;
   margin: 4px;
+  padding-top: 16px;
 }
 
 p {
@@ -21,7 +23,7 @@ p {
 }
 
 footer {
-  padding-top: 16px;
+  padding: 16px;
   font-size: 10px;
   font-weight: 300;
 }
@@ -30,11 +32,45 @@ a {
   text-decoration: none;
   font-weight: 600;
   transition: 200ms;
-  color: darkslategray;
+  color: purple;
 }
 
 a:hover {
   color: hotpink;
+}
+
+.buttons {
+  padding-bottom: 12px;
+  padding-top: -4px;
+}
+
+button {
+  font-family: "Sarina", cursive;
+  font-size: 12px;
+  font-weight: bold;
+  color: hotpink;
+  background-color: lavenderblush;
+  border-radius: 2px;
+  border: none;
+  height: 36px;
+  width: 180px;
+  margin: 4px;
+  transition: 600ms ease-in-out;
+  cursor: pointer;
+}
+
+.inactive {
+  color: grey;
+  background-color: lightgray;
+  cursor: default;
+}
+
+.inactive:hover {
+  background-color: lightgrey;
+}
+
+button:hover {
+  background-color: lavender;
 }
 
 .wrapper {
@@ -42,29 +78,43 @@ a:hover {
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(5, auto);
-  border: 4px lavenderblush solid;
+  border: 0px lavenderblush solid;
   width: 360px;
+  background-color: white;
 }
 
 .tile {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 
   width: 50px;
   height: 50px;
-  background: white;
 
   padding: 10px;
   font-size: 10px;
-  border: 1px lavenderblush solid;
+  border: 1px white solid;
 
   cursor: pointer;
+  transition: 600ms ease-in-out;
+}
+
+.tile:hover {
+  background-color: lavender;
+  border-radius: 100px;
 }
 
 .tile--set {
-  color: hotpink;
-  text-decoration: line-through;
+  color: white;
+  background-color: hotpink;
+  border-radius: 100px;
+}
+
+.tile--set:hover {
+  color: white;
+  background-color: deeppink;
+  border-radius: 100px;
 }
 
 canvas {

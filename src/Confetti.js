@@ -12,6 +12,14 @@ export function start() {
     "MediumVioletRed",
     "PaleVioletRed",
     "LightPink",
+    "Fuchsia",
+    "Lime",
+    "BlueViolet",
+    "DodgerBlue",
+    "Gold",
+    "MediumOrchid",
+    "Plum",
+    "Turquoise",
   ];
 
   function randomFromTo(from, to) {
