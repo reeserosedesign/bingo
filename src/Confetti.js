@@ -3,7 +3,7 @@ export function start() {
   let H = window.innerHeight;
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");
-  const maxConfettis = 300;
+  const maxConfettis = 1000;
   const particles = [];
 
   const possibleColors = [
@@ -13,13 +13,14 @@ export function start() {
     "PaleVioletRed",
     "LightPink",
     "Fuchsia",
-    "Lime",
+    "Aquamarine",
     "BlueViolet",
     "DodgerBlue",
     "Gold",
     "MediumOrchid",
     "Plum",
     "Turquoise",
+    "LightGreen",
   ];
 
   function randomFromTo(from, to) {

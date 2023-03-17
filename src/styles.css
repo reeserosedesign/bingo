@@ -2,7 +2,7 @@
   font-family: "Inter Tight", sans-serif;
   font-weight: 600;
   text-align: center;
-  color: purple;
+  color: darkslategray;
   background-color: white;
 }
 
@@ -17,7 +17,7 @@ p {
   width: 360px;
   text-align: left;
   margin: 0 auto;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
   font-size: 10px;
   font-weight: 300;
 }
@@ -32,45 +32,42 @@ a {
   text-decoration: none;
   font-weight: 600;
   transition: 200ms;
-  color: purple;
+  color: darkslategray;
 }
 
 a:hover {
   color: hotpink;
 }
 
-.buttons {
-  padding-bottom: 12px;
-  padding-top: -4px;
-}
-
 button {
   font-family: "Sarina", cursive;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: hotpink;
-  background-color: lavenderblush;
+  background-color: white;
   border-radius: 2px;
   border: none;
+  border-bottom: 4px white solid;
   height: 36px;
-  width: 150px;
-  margin: 4px;
+  width: 100px;
+  margin: 8px;
   transition: 600ms ease-in-out;
   cursor: pointer;
 }
 
 .active {
-  color: white;
-  background-color: hotpink;
+  color: hotpink;
+  border-bottom: 4px lavender solid;
   cursor: default;
 }
 
 .active:hover {
-  background-color: hotpink;
+  border-bottom: 4px lavender solid;
 }
 
 button:hover {
-  background-color: lavender;
+  background-color: white;
+  border-bottom: 4px lavenderblush solid;
 }
 
 .wrapper {
@@ -101,19 +98,17 @@ button:hover {
 }
 
 .tile:hover {
-  background-color: lavender;
+  background-color: lavenderblush;
   border-radius: 100px;
 }
 
 .tile--set {
-  color: white;
-  background-color: hotpink;
+  background-color: lavender;
   border-radius: 100px;
 }
 
 .tile--set:hover {
-  color: white;
-  background-color: deeppink;
+  background-color: lavender;
   border-radius: 100px;
 }
 
