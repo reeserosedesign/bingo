@@ -1,9 +1,13 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
 .App {
   font-family: "Inter Tight", sans-serif;
   font-weight: 600;
   text-align: center;
   color: darkslategray;
-  background-color: white;
 }
 
 h1 {
@@ -14,11 +18,11 @@ h1 {
 }
 
 p {
-  width: 360px;
+  width: 350px;
   text-align: left;
   margin: 0 auto;
   padding-bottom: 0px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
 }
 
@@ -31,7 +35,7 @@ footer {
 a {
   text-decoration: none;
   font-weight: 600;
-  transition: 200ms;
+  transition: 600ms ease-in-out;
   color: darkslategray;
 }
 
@@ -41,7 +45,7 @@ a:hover {
 
 button {
   font-family: "Sarina", cursive;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: hotpink;
   background-color: white;
@@ -49,7 +53,7 @@ button {
   border: none;
   border-bottom: 4px white solid;
   height: 36px;
-  width: 100px;
+  width: 95px;
   margin: 8px;
   transition: 300ms ease-in-out;
   cursor: pointer;
@@ -74,11 +78,11 @@ button:hover {
   margin: 8px auto 0;
   padding: 8px;
   display: grid;
-  grid-gap: 0;
+  grid-gap: 8px;
   grid-template-columns: repeat(5, auto);
   border: 4px lavenderblush solid;
-  border-radius: 2px;
-  width: 360px;
+  border-radius: 12px;
+  width: 350px;
   background-color: white;
 }
 
@@ -88,12 +92,12 @@ button:hover {
   align-items: center;
   background-color: white;
 
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
 
   padding: 8px;
   font-size: 10px;
-  border: 1px white solid;
+  border: 0px white solid;
 
   cursor: pointer;
   transition: 300ms ease-in-out;

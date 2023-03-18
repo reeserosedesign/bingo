@@ -216,7 +216,7 @@ function App() {
           onClick={handleTBDClick}
           className={isTBDActive ? "active" : ""}
         >
-          Bad Day
+          Today
         </button>
 
         {isPlaceShown && (
