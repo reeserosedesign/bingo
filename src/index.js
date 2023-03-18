@@ -22,9 +22,9 @@ function Tile({ id, children, onToggle, isSet }) {
 }
 
 const iHateItHere = [
-  "Smells Bad",
+  "Smells like Mildew",
   "Hate Crimed",
-  "Rude Employees",
+  "Bad Service",
   "Not Queer Friendly",
   "Uncomfy Seating",
   "Long Wait",
@@ -35,7 +35,7 @@ const iHateItHere = [
   "Cold Food",
   "Made by Chef Mike",
   "Indoor Climate",
-  "Outdated Decor",
+  "Trouble Parking",
   "Dirty",
   "Extra Fees",
   "Trashy Patrons",
@@ -69,7 +69,7 @@ const redFlags = [
   "Capricorn",
   "Straight",
   "Never Wrong",
-  "Takes Up Too Much Space",
+  "Hates Astrology",
   "Never Left Home",
   "Hates Winnie the Pooh",
   "Only Likes Anime",
@@ -78,31 +78,31 @@ const redFlags = [
 ];
 
 const killMe = [
-  "Raining",
-  "Hurricane",
-  "UV Index of 10",
-  "Raw Sewage Smell",
-  "Long Lights",
-  "Over 90ºF",
-  "Scary Dogs",
-  "Outdoor Venue",
-  "BUGS",
-  "Florida Man",
-  "There is a Man",
-  "Youngest by 20 Years",
-  "Overpriced Water",
-  "Pollen Season",
-  "Muddy",
-  "Sandy",
-  "Bad Bumper Stickers",
-  "Gross Food",
-  "Terrible Service",
-  "Panera",
-  "Homophobic Gays",
-  "No Diet Coke",
-  "Dirty Bathrooms",
-  "Poop on the Floor",
-  "Coughing Kids",
+  "Cried",
+  "Pooped Pants",
+  "Food Poisoning",
+  "Allergies",
+  "Worked Overtime",
+  "Chased by Dogs",
+  "No Lunch Break",
+  "Bad Weather",
+  "Sick",
+  "Didn't Go Outside",
+  "Lost Money",
+  "Breaking Out",
+  "Stinky Feet",
+  "Got Lumps",
+  "Running Late",
+  "Overwhelmed",
+  "Made a Mess",
+  "Broke Something",
+  "Clogged Toilet",
+  "Can't Cook",
+  "Car Troubles",
+  "Cat Troubles",
+  "Emotional Turmoil",
+  "Injury",
+  "Surrounded by Idiots",
 ];
 
 const placeData = shuffle(iHateItHere).reduce(
@@ -209,14 +209,14 @@ function App() {
           onClick={handlePeopleClick}
           className={isPeopleActive ? "active" : ""}
         >
-          People
+          Dating
         </button>
 
         <button
           onClick={handleTBDClick}
           className={isTBDActive ? "active" : ""}
         >
-          Florida
+          Bad Day
         </button>
 
         {isPlaceShown && (
