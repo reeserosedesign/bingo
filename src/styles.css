@@ -41,7 +41,7 @@ a:hover {
 
 button {
   font-family: "Sarina", cursive;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   color: hotpink;
   background-color: white;
@@ -51,7 +51,7 @@ button {
   height: 36px;
   width: 100px;
   margin: 8px;
-  transition: 600ms ease-in-out;
+  transition: 300ms ease-in-out;
   cursor: pointer;
 }
 
@@ -71,11 +71,13 @@ button:hover {
 }
 
 .wrapper {
-  margin: 0 auto;
+  margin: 8px auto 0;
+  padding: 8px;
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(5, auto);
-  border: 0px lavenderblush solid;
+  border: 4px lavenderblush solid;
+  border-radius: 2px;
   width: 360px;
   background-color: white;
 }
@@ -89,25 +91,15 @@ button:hover {
   width: 50px;
   height: 50px;
 
-  padding: 10px;
+  padding: 8px;
   font-size: 10px;
   border: 1px white solid;
 
   cursor: pointer;
-  transition: 600ms ease-in-out;
-}
-
-.tile:hover {
-  background-color: lavenderblush;
-  border-radius: 100px;
+  transition: 300ms ease-in-out;
 }
 
 .tile--set {
-  background-color: lavender;
-  border-radius: 100px;
-}
-
-.tile--set:hover {
   background-color: lavender;
   border-radius: 100px;
 }
